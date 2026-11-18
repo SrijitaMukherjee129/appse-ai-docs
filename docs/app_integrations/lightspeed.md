@@ -172,7 +172,7 @@ Here is the list of available actions in Lightspeed:
 | **Get Inventory by Product ID** | Retrieves the inventory records for a product across all outlets, including current stock level, average cost and reorder figures. Can optionally cover every variant of the product. |
 | **Get Inventory Levels by Product ID** | Retrieves the aggregated inventory levels for a product across all outlets, including stock count, costs and reorder figures. |
 | **Get Filtered Records** | Gets records from the listed Lightspeed modules, filtered by a query. Supported modules in the action's dropdown: **Product Categories**, **Variant Attributes**, **Outlets**, **Registers**, **Payment Types**, **Brands**, **Tags**, **Price Books** and **Customer Groups**. For the filters each module accepts, see the [Lightspeed API documentation](https://x-series-api.lightspeedhq.com/reference/). |
-| **Search Records** | Searches records in a Lightspeed module. Choose **Search (Products, Customers or Sales)** to query those record types by attribute — SKU, email, invoice number, date range and more — or select **Product Categories**, **Variant Attributes**, **Gift Cards**, **Outlets**, **Registers**, **Payment Types**, **Taxes**, **Users** or **Channels** to list that module's records. |
+| **Search Records** | Searches Lightspeed records by attribute, such as SKU, email, invoice number or date range. Supported modules in the action's dropdown: **Products**, **Customers** and **Sales**. For the search attributes each module accepts, see the [Lightspeed API documentation](https://x-series-api.lightspeedhq.com/reference/).  |
 
 
 :::note
